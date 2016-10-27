@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Syntax</title>
+   </head>
+   <body>
+   
+    <button onclick="ClickMe('Hello, what's up!')'>Click me!</button>
+    
+    <br>
+    
+    <button onclick="ClickMeToo('I was clicked!')">Click me too!</button>
+    
+    <div id="changeme">
+    
+    </div>
+    
+   <script>
+    function cickMe(x) {
+      alert("Hello, how are you?" + x);
+    }
+    
+    function clickMeToo(x) {
+      document.getElementById('changeme').innerHTML=x;
+    }
+    </script>
+    </body>
+   </html>
